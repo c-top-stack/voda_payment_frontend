@@ -1,0 +1,31 @@
+body{
+	background-image:;
+}
+
+
+.navbar { background-color: #002A50; }
+.navbar .navbar-brand h3 { color: #fff; }
+.form-inline a { font-size: 15px; font-weight: 700; color: #002A50; background: #fff; padding: 6px 10px; border-radius: 2px; }
+
+.login { padding-bottom: 30px; margin-bottom: 30px; border-bottom: 1px solid #00000036; }
+.login h3 { font-weight: 500; color: #1A1A1A; padding-top: 20px; }
+
+.form { position: fixed; width: 40%; left: 50%; top: 50%;transform: translate(-50%, -50%); padding: 20px; background: #fff; box-shadow: 0px 10px 50px 1px rgb(0 0 0 / 8%); border-top: 5px solid #002A50; }
+.form-login button { display: flex;justify-content: space-between; align-items: center; margin-bottom: 24px; }
+.info { font-size: 16px; font-weight: 600; color: #0061E6; }
+.info:hover { text-decoration: none; }
+input[type=checkbox], input[type=radio] { height: 20px; width: 20px; }
+.form-check-label { margin-left: 10px; font-size: 16px; font-weight:600; }
+
+.signup h2 { font-weight: 400; color: #1A1A1A; padding-top: 20px; }
+.signup-form { margin: 80px auto; width: 40%; padding: 20px; background: #fff; box-shadow: 0px 10px 50px 1px rgb(0 0 0 / 8%); border-top: 5px solid #002A50; }
+
+.bottom-content { background: #16143C; padding: 18px; }
+.bottom-content h5 { color: #fff; padding-bottom: 20px; border-bottom: 1px solid grey; }
+.bottom-content p { color: #B5B4D3; font-size: 14px; padding-top: 10px;}
+
+.form-group label span { font-size: 15px; font-weight: 800; color: red; }
+@media ( max-width: 992px){
+.form { width: 100%; margin-top: 100px; left: 0; top: 0; transform: none;}
+
+	}
